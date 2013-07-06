@@ -34,7 +34,7 @@ cd oh-my-zsh-powerline-theme
 ./install_in_omz.sh 
 ```
 
-vi ~/.zshrc, and change `ZSH_THEME` to 'powerline'
+`vi ~/.zshrc`, and change `ZSH_THEME` to 'powerline'
 
 ### Install and Config Fonts 
 
