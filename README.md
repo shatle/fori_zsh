@@ -46,4 +46,4 @@ bash ./pl_font_config.sh
 
 Right click to your terminal, and change its font family setting which selects none of gibberish.
 
-If you want to diff terminal from bash which is with zsh, you could add a self-defined keyboard shortcust. The command is `gnome-terminal --working-directory=~ -x zsh --autocd`, then set the shortcut key, likes `CTRL + ALT + Z`
+If you want to diff terminal from bash which is with zsh, you could add a self-defined keyboard shortcut. The shortcut command is `gnome-terminal --working-directory=~ -x zsh --autocd`, then set the shortcut key, likes `CTRL + ALT + Z`
