@@ -38,8 +38,11 @@ vi ~/.zshrc, and change `ZSH_THEME` to 'powerline'
 
 ### Install and Config Fonts 
 
+
 ```
-bash ./pl_font_config.sh
+git clone https://github.com/shatle/fori_zsh 
+cd fori_zsh
+./pl_font_config.sh
 ```
 
 ### Manual Setting 
