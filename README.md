@@ -39,7 +39,7 @@ vi ~/.zshrc, and change `ZSH_THEME` to 'powerline'
 ### Install and Config Fonts 
 
 ```
-./pl_font_config.sh
+bash ./pl_font_config.sh
 ```
 
 ### Manual Setting 
