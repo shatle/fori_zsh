@@ -29,6 +29,22 @@ bash ./install.sh
 bash ./config.sh
 ```
 
+Add some config:
+
+```
+ZSH_THEME="powerline"
+
+# POWERLINE_HIDE_USER_NAME="true"
+
+POWERLINE_HIDE_HOST_NAME="true"
+
+alias gtk='gitk --all' # it should `sudo apt-get install gitk`
+alias gts='git status'
+alias gtaa='git add -A'
+alias gtc='git commit -am'
+alias gtck='git checkout'
+```
+
 ### Manual Setting 
 
 Right click to your terminal, and change its font family setting which selects none of gibberish.
