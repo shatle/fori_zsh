@@ -25,11 +25,13 @@ bash ./install.sh
 
 ## Config
 
+U must open `~/.zshrc` and change ZSH_THEME to "powerline". If you like my config, do :
+
 ```
 bash ./config.sh
 ```
 
-Add some config:
+it auto to add some configurations :
 
 ```
 ZSH_THEME="powerline"
