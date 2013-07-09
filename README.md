@@ -42,7 +42,7 @@ cd oh-my-zsh-powerline-theme
 ```
 git clone https://github.com/shatle/fori_zsh 
 cd fori_zsh
-./pl_font_config.sh
+bash ./pl_font_config.sh
 ```
 
 ### Manual Setting 
