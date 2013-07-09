@@ -11,8 +11,10 @@ ZSH_THEME="powerline"
 
 POWERLINE_HIDE_HOST_NAME="true"
 
-alias gta='gitk --all'
+alias gtk='gitk --all'
 alias gts='git status'
+alias gtaa='git add -A'
+alias gtc='git commit -am'
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
