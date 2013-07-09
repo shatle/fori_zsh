@@ -15,6 +15,7 @@ alias gtk='gitk --all'
 alias gts='git status'
 alias gtaa='git add -A'
 alias gtc='git commit -am'
+alias gtck='git checkout'
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
