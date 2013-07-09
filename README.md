@@ -14,35 +14,19 @@ https://powerline.readthedocs.org/en/latest/installation/linux.html#font-install
 
 ## Setup Process
 
-### zsh 
-
-```
-sudo apt-get install zsh 
-```
-
-### oh-my-zsh 
-
-```
-curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
-```
-
-### powerline.zsh-theme 
-
-```
-git clone https://github.com/jeremyFreeAgent/oh-my-zsh-powerline-theme 
-cd oh-my-zsh-powerline-theme 
-./install_in_omz.sh 
-```
-
-`vi ~/.zshrc`, and change `ZSH_THEME` to 'powerline'
-
-### Install and Config Fonts 
-
+### Install
 
 ```
 git clone https://github.com/shatle/fori_zsh 
-cd fori_zsh
-bash ./pl_font_config.sh
+cd ./fori_zsh
+git checkout only_install
+bash ./install.sh 
+```
+
+## Config
+
+```
+bash ./config.sh
 ```
 
 ### Manual Setting 
