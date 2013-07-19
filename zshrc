@@ -7,15 +7,25 @@ ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="powerline"
 
-# POWERLINE_HIDE_USER_NAME="true"
+POWERLINE_HIDE_HOST_NAME="true" 
 
-POWERLINE_HIDE_HOST_NAME="true"
+POWERLINE_HIDE_USER_NAME="true"
 
+alias gt='git'
 alias gtk='gitk --all'
 alias gts='git status'
 alias gtaa='git add -A'
+alias gtb='git branch'
+alias gtba='git branch -a'
 alias gtc='git commit -am'
 alias gtck='git checkout'
+alias gtcb='git checkout -b'
+alias gtd='git diff'
+alias gtm='git merge --no-ff'
+
+alias rs='rails s'
+alias rc='rails c'
+alias rg='rails g'
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -55,4 +65,4 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:/home/shatle/.rvm/gems/ruby-1.9.3-p194/bin:/home/shatle/.rvm/gems/ruby-1.9.3-p194@global/bin:/home/shatle/.rvm/rubies/ruby-1.9.3-p194/bin:/home/shatle/.rvm/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+export PATH=$PATH:/home/com-osd/.rvm/gems/ruby-1.9.3-p448/bin:/home/com-osd/.rvm/gems/ruby-1.9.3-p448@global/bin:/home/com-osd/.rvm/rubies/ruby-1.9.3-p448/bin:/home/com-osd/.rvm/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
