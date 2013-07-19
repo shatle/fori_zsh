@@ -8,7 +8,6 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="powerline"
 
 POWERLINE_HIDE_HOST_NAME="true" 
-
 POWERLINE_HIDE_USER_NAME="true"
 
 alias gt='git'
@@ -22,6 +21,8 @@ alias gtck='git checkout'
 alias gtcb='git checkout -b'
 alias gtd='git diff'
 alias gtm='git merge --no-ff'
+alias gth='git push'
+alias gtl='git pull'
 
 alias rs='rails s'
 alias rc='rails c'
