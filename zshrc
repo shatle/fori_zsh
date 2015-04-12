@@ -8,11 +8,11 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="powerline"
 
 POWERLINE_HIDE_HOST_NAME="true" 
-POWERLINE_HIDE_USER_NAME="true"
+# POWERLINE_HIDE_USER_NAME="true"
 
 alias gt='git'
 alias gtk='gitk --all'
-alias gts='git status'
+alias gtst='git status'
 alias gtaa='git add -A'
 alias gtb='git branch'
 alias gtba='git branch -a'
@@ -74,5 +74,6 @@ setopt auto_cd
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+source $HOME/._z.sh
 
 # Customize to your needs...

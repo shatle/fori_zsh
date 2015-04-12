@@ -26,21 +26,7 @@ sudo apt-get install zsh
 curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 ```
 
-#### The manual way
-
-1. Clone the repository
-
-git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
-2. OPTIONAL Backup your existing ~/.zshrc file
-
-cp ~/.zshrc ~/.zshrc.orig
-3. Create a new zsh config by copying the zsh template we’ve provided.
-
-cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
-4. Set zsh as your default shell:
-
-chsh -s /bin/zsh
-5. Start / restart zsh (open a new terminal is easy enough…)
+Start / restart zsh (open a new terminal is easy enough…)
 
 ### powerline.zsh-theme 
 
