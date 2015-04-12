@@ -75,5 +75,5 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 source $HOME/._z.sh
-
+. $HOME/._resty
 # Customize to your needs...

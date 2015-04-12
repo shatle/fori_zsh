@@ -57,8 +57,16 @@ If you want to diff terminal from bash which is with zsh, you could add a self-d
 
 ### install 
 
-curl -O https://raw.githubusercontent.com/rupa/z/master/z.sh ._z.sh
+> curl -O https://raw.githubusercontent.com/rupa/z/master/z.sh ._z.sh
 
 type code in `.zshrc`
 
   source ~/._z.sh
+
+## resty 
+
+> curl -O https://raw.githubusercontent.com/micha/resty/master/resty ._resty
+
+add code in `.zshrc`
+
+  . ~/._resty
