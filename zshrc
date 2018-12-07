@@ -28,6 +28,8 @@ alias gtm='git merge --no-ff'
 alias gth='git push'
 alias gtl='git pull'
 alias gtt='git tag'
+alias gtbi='git rebase -i' 
+alias gtcc='git fetch -p origin' #清理本地远程不存在的缓存分支
 
 alias rs='rails s'
 alias rc='rails c'
