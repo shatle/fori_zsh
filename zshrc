@@ -30,6 +30,8 @@ alias gtl='git pull'
 alias gtt='git tag'
 alias gtbi='git rebase -i' 
 alias gtcc='git fetch -p origin' #清理本地远程不存在的缓存分支
+alias gtrs='git reset --hard' #Revert changes to modified files.
+alias gtcf='git clean -fd' # Remove all untracked files and directories
 
 alias rs='rails s'
 alias rc='rails c'
@@ -80,3 +82,8 @@ source $ZSH/oh-my-zsh.sh
 source $HOME/._z.sh
 . $HOME/._resty
 # Customize to your needs...
+
+#export NVM_DIR="$HOME/.nvm"
+#[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+
+#export PATH=$PATH:$HOME/flutter/bin
