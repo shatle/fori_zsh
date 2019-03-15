@@ -17,12 +17,14 @@ alias gtaa='git add -A'
 alias gtb='git branch'
 alias gtba='git branch -a'
 alias gtbo='for k in `git branch|perl -pe s/^..//`;do echo -e `git show --pretty=format:"%Cgreen%ci %Cblue%cr%Creset" $k|head -n 1`\\t$k;done|sort -r'
-alias gtbd='git branch -d'
+alias gtbd='git branch -d' #删除本地分支
+alias gtbr='git push --delete origin' #删除远程分支
 alias gtc='git commit -am'
 alias gtck='git checkout'
 alias gtcb='git checkout -b'
 # unmodified all files
 alias gtum='git checkout -- ./'
+alias gtrs='git reset --hard'
 alias gtd='git diff'
 alias gtm='git merge --no-ff'
 alias gth='git push'
@@ -30,8 +32,8 @@ alias gtl='git pull'
 alias gtt='git tag'
 alias gtbi='git rebase -i' 
 alias gtcc='git fetch -p origin' #清理本地远程不存在的缓存分支
-alias gtrs='git reset --hard' #Revert changes to modified files.
-alias gtcf='git clean -fd' # Remove all untracked files and directories
+alias gtfp='git pull -f origin production:production' # 使用远程production覆盖本地production
+alias gtfm='git pull -f origin master:master' # 使用远程master覆盖本地master
 
 alias rs='rails s'
 alias rc='rails c'
