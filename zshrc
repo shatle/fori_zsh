@@ -19,6 +19,7 @@ alias gtba='git branch -a'
 alias gtbo='for k in `git branch|perl -pe s/^..//`;do echo -e `git show --pretty=format:"%Cgreen%ci %Cblue%cr%Creset" $k|head -n 1`\\t$k;done|sort -r'
 alias gtbd='git branch -d' #删除本地分支
 alias gtbr='git push --delete origin' #删除远程分支
+alias gtbn='git branch -m' #重命名当前分支
 alias gtc='git commit -am'
 alias gtck='git checkout'
 alias gtcb='git checkout -b'
